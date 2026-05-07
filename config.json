@@ -1,8 +1,8 @@
 {
-  "name": "tapp",
-  "version": "1.0.0",
-  "description": "OpenClaw skill for the Tapp marketplace",
-  "repository": "https://github.com/todaqmicro/openclaw-tapp",
+  "name": "qatom",
+  "version": "2.0.0",
+  "description": "OpenClaw skill for the Qatom marketplace",
+  "repository": "https://github.com/todaqmicro/qatom-skill",
   "mcpServer": "https://mcp.m.todaq.net",
   "paymentApi": "https://pay.m.todaq.net",
   "performance": {
@@ -10,7 +10,8 @@
     "timeoutMs": 30000
   },
   "safety": {
-    "allowedOperations": ["read", "call", "register"],
+    "allowedOperations": ["read", "call", "register", "manage_twin"],
+    "agentAutoApprove": true,
     "requireConfirmation": true
   }
 }

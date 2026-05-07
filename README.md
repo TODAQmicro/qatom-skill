@@ -1,6 +1,6 @@
-# Qatom - Agent Skill
+# qatom — OpenClaw Skill
 
-An [OpenClaw](https://openclaw.ai) skill for the Qatom marketplace — a payment layer built on the TODAQ protocol and integrity network.
+An [OpenClaw](https://openclaw.ai) skill for the [Qatom](https://tapp.todaq.net) marketplace — a payment layer built on the TODAQ protocol and integrity network.
 
 ## What it does
 
@@ -10,7 +10,7 @@ An [OpenClaw](https://openclaw.ai) skill for the Qatom marketplace — a payment
 ## Install
 
 ```bash
-clawhub install Qatom
+clawhub install qatom
 ```
 
 Or manually: copy the `SKILL.md` into your OpenClaw skills directory.
