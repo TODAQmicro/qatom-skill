@@ -5,5 +5,18 @@
   "homepage": "https://github.com/TODAQmicro/qatom-skill",
   "license": "MIT",
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "author": {
+    "name": "TODAQ Micro",
+    "url": "https://todaq.net"
+  },
+  "keywords": [
+    "payments",
+    "marketplace",
+    "mcp",
+    "todaq",
+    "agentic-commerce",
+    "micropayments"
+  ],
+  "repository": "https://github.com/TODAQmicro/qatom-skill"
 }
