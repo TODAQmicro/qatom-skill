@@ -15,6 +15,22 @@ clawhub install qatom
 
 Or manually: copy the `SKILL.md` into your OpenClaw skills directory.
 
+
+## Install (Codex / ChatGPT)
+
+This repo is also packaged as a Codex plugin. Add it as a marketplace source:
+
+    codex plugin marketplace add TODAQmicro/qatom-skill --ref main
+    codex plugin install qatom --source qatom-skill
+
+Or in the ChatGPT desktop app: Settings, then Plugins, then +Add More..., and paste the repo URL.
+
+The plugin bundles the Qatom skill plus the hosted MCP server connection (mcp.m.todaq.net, OAuth 2.0). After installing, start a new session and ask: "Help me register as a Qatom provider" or "Check my Qatom wallet balance."
+
+### OpenClaw (manual)
+
+If installing manually for OpenClaw, copy `skills/qatom/SKILL.md` into your OpenClaw skills directory.
+
 ## Requirements
 
 - [OpenClaw](https://openclaw.ai)
