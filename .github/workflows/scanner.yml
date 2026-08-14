@@ -1,0 +1,17 @@
+name: HOL Plugin Scanner
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Run HOL AI Plugin Scanner
+        uses: hashgraph-online/ai-plugin-scanner-action@264eb4757331c18125b4ba8914c4927124ed17ae # v1
